@@ -8,22 +8,88 @@
 
 /* Begin PBXBuildFile section */
 		6749B1C71E6317FF001E19A2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6749B1C61E6317FF001E19A2 /* AppDelegate.swift */; };
-		6749B1C91E6317FF001E19A2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6749B1C81E6317FF001E19A2 /* ViewController.swift */; };
 		6749B1CC1E6317FF001E19A2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6749B1CA1E6317FF001E19A2 /* Main.storyboard */; };
 		6749B1CF1E6317FF001E19A2 /* CoreDataSwiftReview.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6749B1CD1E6317FF001E19A2 /* CoreDataSwiftReview.xcdatamodeld */; };
 		6749B1D11E6317FF001E19A2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6749B1D01E6317FF001E19A2 /* Assets.xcassets */; };
 		6749B1D41E6317FF001E19A2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6749B1D21E6317FF001E19A2 /* LaunchScreen.storyboard */; };
+		6749B1DC1E6319EF001E19A2 /* RootTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6749B1DB1E6319EF001E19A2 /* RootTableViewController.swift */; };
+		6749B1DE1E633E72001E19A2 /* BowTieRootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6749B1DD1E633E72001E19A2 /* BowTieRootViewController.swift */; };
+		6749B1E11E634FED001E19A2 /* BowTieModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6749B1DF1E634FED001E19A2 /* BowTieModel.xcdatamodeld */; };
+		6749B1E91E635494001E19A2 /* blue.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6749B1E21E635494001E19A2 /* blue.jpg */; };
+		6749B1EA1E635494001E19A2 /* green.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6749B1E31E635494001E19A2 /* green.jpg */; };
+		6749B1EB1E635494001E19A2 /* indigo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6749B1E41E635494001E19A2 /* indigo.jpg */; };
+		6749B1EC1E635494001E19A2 /* orange.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6749B1E51E635494001E19A2 /* orange.jpg */; };
+		6749B1ED1E635494001E19A2 /* red.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6749B1E61E635494001E19A2 /* red.jpg */; };
+		6749B1EE1E635494001E19A2 /* violet.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6749B1E71E635494001E19A2 /* violet.jpg */; };
+		6749B1EF1E635494001E19A2 /* yellow.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6749B1E81E635494001E19A2 /* yellow.jpg */; };
+		6749B1F11E6354C5001E19A2 /* SampleData.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6749B1F01E6354C5001E19A2 /* SampleData.plist */; };
+		6749B1FA1E6359D3001E19A2 /* BowTie+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6749B1F81E6359D3001E19A2 /* BowTie+CoreDataClass.swift */; };
+		6749B1FB1E6359D3001E19A2 /* BowTie+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6749B1F91E6359D3001E19A2 /* BowTie+CoreDataProperties.swift */; };
+		67BCD7BC1E64216300A39590 /* DogWalkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67BCD7BB1E64216300A39590 /* DogWalkViewController.swift */; };
+		67BCD7BF1E6421FD00A39590 /* DogWalkModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 67BCD7BD1E6421FD00A39590 /* DogWalkModel.xcdatamodeld */; };
+		67BCD7C71E645A4900A39590 /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67BCD7C61E645A4900A39590 /* CoreDataStack.swift */; };
+		67BCD7CE1E64877E00A39590 /* Walk+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67BCD7CA1E64877E00A39590 /* Walk+CoreDataClass.swift */; };
+		67BCD7CF1E64877E00A39590 /* Walk+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67BCD7CB1E64877E00A39590 /* Walk+CoreDataProperties.swift */; };
+		67BCD7D01E64877E00A39590 /* Dog+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67BCD7CC1E64877E00A39590 /* Dog+CoreDataClass.swift */; };
+		67BCD7D11E64877E00A39590 /* Dog+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67BCD7CD1E64877E00A39590 /* Dog+CoreDataProperties.swift */; };
+		67BCD7D41E64895100A39590 /* Puppy.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 67BCD7D31E64895100A39590 /* Puppy.jpeg */; };
+		67BCD7DA1E649FF600A39590 /* BubbleTeaModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 67BCD7D81E649FF600A39590 /* BubbleTeaModel.xcdatamodeld */; };
+		67BCD7DC1E64AD2C00A39590 /* BubbleTeaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67BCD7DB1E64AD2C00A39590 /* BubbleTeaViewController.swift */; };
+		67BCD7DE1E64AFCA00A39590 /* seed.json in Resources */ = {isa = PBXBuildFile; fileRef = 67BCD7DD1E64AFCA00A39590 /* seed.json */; };
+		67BCD7EA1E64B53200A39590 /* Location+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67BCD7E01E64B53200A39590 /* Location+CoreDataClass.swift */; };
+		67BCD7EB1E64B53200A39590 /* Location+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67BCD7E11E64B53200A39590 /* Location+CoreDataProperties.swift */; };
+		67BCD7EC1E64B53200A39590 /* PriceInfo+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67BCD7E21E64B53200A39590 /* PriceInfo+CoreDataClass.swift */; };
+		67BCD7ED1E64B53200A39590 /* PriceInfo+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67BCD7E31E64B53200A39590 /* PriceInfo+CoreDataProperties.swift */; };
+		67BCD7EE1E64B53200A39590 /* Venue+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67BCD7E41E64B53200A39590 /* Venue+CoreDataClass.swift */; };
+		67BCD7EF1E64B53200A39590 /* Venue+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67BCD7E51E64B53200A39590 /* Venue+CoreDataProperties.swift */; };
+		67BCD7F01E64B53200A39590 /* Category+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67BCD7E61E64B53200A39590 /* Category+CoreDataClass.swift */; };
+		67BCD7F11E64B53200A39590 /* Category+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67BCD7E71E64B53200A39590 /* Category+CoreDataProperties.swift */; };
+		67BCD7F21E64B53200A39590 /* Stats+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67BCD7E81E64B53200A39590 /* Stats+CoreDataClass.swift */; };
+		67BCD7F31E64B53200A39590 /* Stats+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67BCD7E91E64B53200A39590 /* Stats+CoreDataProperties.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		6749B1C31E6317FF001E19A2 /* CoreDataSwiftReview.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreDataSwiftReview.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6749B1C61E6317FF001E19A2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		6749B1C81E6317FF001E19A2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		6749B1CB1E6317FF001E19A2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6749B1CE1E6317FF001E19A2 /* CoreDataSwiftReview.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoreDataSwiftReview.xcdatamodel; sourceTree = "<group>"; };
 		6749B1D01E6317FF001E19A2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6749B1D31E6317FF001E19A2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6749B1D51E6317FF001E19A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6749B1DB1E6319EF001E19A2 /* RootTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootTableViewController.swift; sourceTree = "<group>"; };
+		6749B1DD1E633E72001E19A2 /* BowTieRootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BowTieRootViewController.swift; sourceTree = "<group>"; };
+		6749B1E01E634FED001E19A2 /* BowTieModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BowTieModel.xcdatamodel; sourceTree = "<group>"; };
+		6749B1E21E635494001E19A2 /* blue.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = blue.jpg; sourceTree = "<group>"; };
+		6749B1E31E635494001E19A2 /* green.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = green.jpg; sourceTree = "<group>"; };
+		6749B1E41E635494001E19A2 /* indigo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = indigo.jpg; sourceTree = "<group>"; };
+		6749B1E51E635494001E19A2 /* orange.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = orange.jpg; sourceTree = "<group>"; };
+		6749B1E61E635494001E19A2 /* red.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = red.jpg; sourceTree = "<group>"; };
+		6749B1E71E635494001E19A2 /* violet.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = violet.jpg; sourceTree = "<group>"; };
+		6749B1E81E635494001E19A2 /* yellow.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = yellow.jpg; sourceTree = "<group>"; };
+		6749B1F01E6354C5001E19A2 /* SampleData.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = SampleData.plist; sourceTree = "<group>"; };
+		6749B1F81E6359D3001E19A2 /* BowTie+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "BowTie+CoreDataClass.swift"; path = "CoreDataSwiftReview/BowTie+CoreDataClass.swift"; sourceTree = "<group>"; };
+		6749B1F91E6359D3001E19A2 /* BowTie+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "BowTie+CoreDataProperties.swift"; path = "CoreDataSwiftReview/BowTie+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		67BCD7BB1E64216300A39590 /* DogWalkViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DogWalkViewController.swift; sourceTree = "<group>"; };
+		67BCD7BE1E6421FD00A39590 /* DogWalkModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DogWalkModel.xcdatamodel; sourceTree = "<group>"; };
+		67BCD7C61E645A4900A39590 /* CoreDataStack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
+		67BCD7CA1E64877E00A39590 /* Walk+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Walk+CoreDataClass.swift"; path = "CoreDataSwiftReview/Walk+CoreDataClass.swift"; sourceTree = "<group>"; };
+		67BCD7CB1E64877E00A39590 /* Walk+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Walk+CoreDataProperties.swift"; path = "CoreDataSwiftReview/Walk+CoreDataProperties.swift"; sourceTree = SOURCE_ROOT; };
+		67BCD7CC1E64877E00A39590 /* Dog+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Dog+CoreDataClass.swift"; path = "CoreDataSwiftReview/Dog+CoreDataClass.swift"; sourceTree = "<group>"; };
+		67BCD7CD1E64877E00A39590 /* Dog+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Dog+CoreDataProperties.swift"; path = "CoreDataSwiftReview/Dog+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		67BCD7D31E64895100A39590 /* Puppy.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Puppy.jpeg; sourceTree = "<group>"; };
+		67BCD7D91E649FF600A39590 /* BubbleTeaModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BubbleTeaModel.xcdatamodel; sourceTree = "<group>"; };
+		67BCD7DB1E64AD2C00A39590 /* BubbleTeaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BubbleTeaViewController.swift; sourceTree = "<group>"; };
+		67BCD7DD1E64AFCA00A39590 /* seed.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = seed.json; sourceTree = "<group>"; };
+		67BCD7E01E64B53200A39590 /* Location+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Location+CoreDataClass.swift"; path = "CoreDataSwiftReview/Location+CoreDataClass.swift"; sourceTree = "<group>"; };
+		67BCD7E11E64B53200A39590 /* Location+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Location+CoreDataProperties.swift"; path = "CoreDataSwiftReview/Location+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		67BCD7E21E64B53200A39590 /* PriceInfo+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "PriceInfo+CoreDataClass.swift"; path = "CoreDataSwiftReview/PriceInfo+CoreDataClass.swift"; sourceTree = "<group>"; };
+		67BCD7E31E64B53200A39590 /* PriceInfo+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "PriceInfo+CoreDataProperties.swift"; path = "CoreDataSwiftReview/PriceInfo+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		67BCD7E41E64B53200A39590 /* Venue+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Venue+CoreDataClass.swift"; path = "CoreDataSwiftReview/Venue+CoreDataClass.swift"; sourceTree = "<group>"; };
+		67BCD7E51E64B53200A39590 /* Venue+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Venue+CoreDataProperties.swift"; path = "CoreDataSwiftReview/Venue+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		67BCD7E61E64B53200A39590 /* Category+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Category+CoreDataClass.swift"; path = "CoreDataSwiftReview/Category+CoreDataClass.swift"; sourceTree = "<group>"; };
+		67BCD7E71E64B53200A39590 /* Category+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Category+CoreDataProperties.swift"; path = "CoreDataSwiftReview/Category+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		67BCD7E81E64B53200A39590 /* Stats+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Stats+CoreDataClass.swift"; path = "CoreDataSwiftReview/Stats+CoreDataClass.swift"; sourceTree = "<group>"; };
+		67BCD7E91E64B53200A39590 /* Stats+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Stats+CoreDataProperties.swift"; path = "CoreDataSwiftReview/Stats+CoreDataProperties.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +106,9 @@
 		6749B1BA1E6317FF001E19A2 = {
 			isa = PBXGroup;
 			children = (
+				67BCD7F41E64B53800A39590 /* BubbleTea Model */,
+				67BCD7D21E64878300A39590 /* DogWalk Model */,
+				6749B1FC1E6359EA001E19A2 /* BowTie Model */,
 				6749B1C51E6317FF001E19A2 /* CoreDataSwiftReview */,
 				6749B1C41E6317FF001E19A2 /* Products */,
 			);
@@ -57,14 +126,100 @@
 			isa = PBXGroup;
 			children = (
 				6749B1C61E6317FF001E19A2 /* AppDelegate.swift */,
-				6749B1C81E6317FF001E19A2 /* ViewController.swift */,
+				67BCD7C61E645A4900A39590 /* CoreDataStack.swift */,
+				67BCD7D51E649F6600A39590 /* Chapter 1 */,
+				67BCD7D61E649F6F00A39590 /* Chapter 2 */,
+				67BCD7D71E649F7800A39590 /* Chapter 3 */,
+				67BCD7DF1E64AFD300A39590 /* Chapter 4 */,
 				6749B1CA1E6317FF001E19A2 /* Main.storyboard */,
 				6749B1D01E6317FF001E19A2 /* Assets.xcassets */,
 				6749B1D21E6317FF001E19A2 /* LaunchScreen.storyboard */,
 				6749B1D51E6317FF001E19A2 /* Info.plist */,
+				6749B1F01E6354C5001E19A2 /* SampleData.plist */,
 				6749B1CD1E6317FF001E19A2 /* CoreDataSwiftReview.xcdatamodeld */,
+				6749B1DF1E634FED001E19A2 /* BowTieModel.xcdatamodeld */,
+				67BCD7BD1E6421FD00A39590 /* DogWalkModel.xcdatamodeld */,
+				67BCD7D81E649FF600A39590 /* BubbleTeaModel.xcdatamodeld */,
 			);
 			path = CoreDataSwiftReview;
+			sourceTree = "<group>";
+		};
+		6749B1FC1E6359EA001E19A2 /* BowTie Model */ = {
+			isa = PBXGroup;
+			children = (
+				6749B1F81E6359D3001E19A2 /* BowTie+CoreDataClass.swift */,
+				6749B1F91E6359D3001E19A2 /* BowTie+CoreDataProperties.swift */,
+			);
+			name = "BowTie Model";
+			sourceTree = "<group>";
+		};
+		67BCD7D21E64878300A39590 /* DogWalk Model */ = {
+			isa = PBXGroup;
+			children = (
+				67BCD7CA1E64877E00A39590 /* Walk+CoreDataClass.swift */,
+				67BCD7CB1E64877E00A39590 /* Walk+CoreDataProperties.swift */,
+				67BCD7CC1E64877E00A39590 /* Dog+CoreDataClass.swift */,
+				67BCD7CD1E64877E00A39590 /* Dog+CoreDataProperties.swift */,
+			);
+			name = "DogWalk Model";
+			sourceTree = "<group>";
+		};
+		67BCD7D51E649F6600A39590 /* Chapter 1 */ = {
+			isa = PBXGroup;
+			children = (
+				6749B1DB1E6319EF001E19A2 /* RootTableViewController.swift */,
+			);
+			name = "Chapter 1";
+			sourceTree = "<group>";
+		};
+		67BCD7D61E649F6F00A39590 /* Chapter 2 */ = {
+			isa = PBXGroup;
+			children = (
+				6749B1DD1E633E72001E19A2 /* BowTieRootViewController.swift */,
+				6749B1E21E635494001E19A2 /* blue.jpg */,
+				6749B1E31E635494001E19A2 /* green.jpg */,
+				6749B1E41E635494001E19A2 /* indigo.jpg */,
+				6749B1E51E635494001E19A2 /* orange.jpg */,
+				6749B1E61E635494001E19A2 /* red.jpg */,
+				6749B1E71E635494001E19A2 /* violet.jpg */,
+				6749B1E81E635494001E19A2 /* yellow.jpg */,
+			);
+			name = "Chapter 2";
+			sourceTree = "<group>";
+		};
+		67BCD7D71E649F7800A39590 /* Chapter 3 */ = {
+			isa = PBXGroup;
+			children = (
+				67BCD7BB1E64216300A39590 /* DogWalkViewController.swift */,
+				67BCD7D31E64895100A39590 /* Puppy.jpeg */,
+			);
+			name = "Chapter 3";
+			sourceTree = "<group>";
+		};
+		67BCD7DF1E64AFD300A39590 /* Chapter 4 */ = {
+			isa = PBXGroup;
+			children = (
+				67BCD7DB1E64AD2C00A39590 /* BubbleTeaViewController.swift */,
+				67BCD7DD1E64AFCA00A39590 /* seed.json */,
+			);
+			name = "Chapter 4";
+			sourceTree = "<group>";
+		};
+		67BCD7F41E64B53800A39590 /* BubbleTea Model */ = {
+			isa = PBXGroup;
+			children = (
+				67BCD7E01E64B53200A39590 /* Location+CoreDataClass.swift */,
+				67BCD7E11E64B53200A39590 /* Location+CoreDataProperties.swift */,
+				67BCD7E21E64B53200A39590 /* PriceInfo+CoreDataClass.swift */,
+				67BCD7E31E64B53200A39590 /* PriceInfo+CoreDataProperties.swift */,
+				67BCD7E41E64B53200A39590 /* Venue+CoreDataClass.swift */,
+				67BCD7E51E64B53200A39590 /* Venue+CoreDataProperties.swift */,
+				67BCD7E61E64B53200A39590 /* Category+CoreDataClass.swift */,
+				67BCD7E71E64B53200A39590 /* Category+CoreDataProperties.swift */,
+				67BCD7E81E64B53200A39590 /* Stats+CoreDataClass.swift */,
+				67BCD7E91E64B53200A39590 /* Stats+CoreDataProperties.swift */,
+			);
+			name = "BubbleTea Model";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -128,8 +283,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				6749B1D41E6317FF001E19A2 /* LaunchScreen.storyboard in Resources */,
+				67BCD7DE1E64AFCA00A39590 /* seed.json in Resources */,
+				6749B1ED1E635494001E19A2 /* red.jpg in Resources */,
+				6749B1EB1E635494001E19A2 /* indigo.jpg in Resources */,
+				6749B1EE1E635494001E19A2 /* violet.jpg in Resources */,
+				67BCD7D41E64895100A39590 /* Puppy.jpeg in Resources */,
 				6749B1D11E6317FF001E19A2 /* Assets.xcassets in Resources */,
+				6749B1EA1E635494001E19A2 /* green.jpg in Resources */,
 				6749B1CC1E6317FF001E19A2 /* Main.storyboard in Resources */,
+				6749B1EF1E635494001E19A2 /* yellow.jpg in Resources */,
+				6749B1F11E6354C5001E19A2 /* SampleData.plist in Resources */,
+				6749B1E91E635494001E19A2 /* blue.jpg in Resources */,
+				6749B1EC1E635494001E19A2 /* orange.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -140,9 +305,32 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				67BCD7DA1E649FF600A39590 /* BubbleTeaModel.xcdatamodeld in Sources */,
+				67BCD7BF1E6421FD00A39590 /* DogWalkModel.xcdatamodeld in Sources */,
 				6749B1CF1E6317FF001E19A2 /* CoreDataSwiftReview.xcdatamodeld in Sources */,
-				6749B1C91E6317FF001E19A2 /* ViewController.swift in Sources */,
+				67BCD7EF1E64B53200A39590 /* Venue+CoreDataProperties.swift in Sources */,
+				67BCD7CE1E64877E00A39590 /* Walk+CoreDataClass.swift in Sources */,
+				67BCD7EA1E64B53200A39590 /* Location+CoreDataClass.swift in Sources */,
+				67BCD7F01E64B53200A39590 /* Category+CoreDataClass.swift in Sources */,
+				67BCD7F11E64B53200A39590 /* Category+CoreDataProperties.swift in Sources */,
+				6749B1FA1E6359D3001E19A2 /* BowTie+CoreDataClass.swift in Sources */,
+				67BCD7D01E64877E00A39590 /* Dog+CoreDataClass.swift in Sources */,
+				67BCD7ED1E64B53200A39590 /* PriceInfo+CoreDataProperties.swift in Sources */,
+				6749B1E11E634FED001E19A2 /* BowTieModel.xcdatamodeld in Sources */,
+				67BCD7D11E64877E00A39590 /* Dog+CoreDataProperties.swift in Sources */,
+				6749B1DC1E6319EF001E19A2 /* RootTableViewController.swift in Sources */,
+				67BCD7C71E645A4900A39590 /* CoreDataStack.swift in Sources */,
+				6749B1FB1E6359D3001E19A2 /* BowTie+CoreDataProperties.swift in Sources */,
+				6749B1DE1E633E72001E19A2 /* BowTieRootViewController.swift in Sources */,
+				67BCD7EC1E64B53200A39590 /* PriceInfo+CoreDataClass.swift in Sources */,
+				67BCD7BC1E64216300A39590 /* DogWalkViewController.swift in Sources */,
+				67BCD7EB1E64B53200A39590 /* Location+CoreDataProperties.swift in Sources */,
+				67BCD7DC1E64AD2C00A39590 /* BubbleTeaViewController.swift in Sources */,
+				67BCD7F31E64B53200A39590 /* Stats+CoreDataProperties.swift in Sources */,
+				67BCD7CF1E64877E00A39590 /* Walk+CoreDataProperties.swift in Sources */,
+				67BCD7EE1E64B53200A39590 /* Venue+CoreDataClass.swift in Sources */,
 				6749B1C71E6317FF001E19A2 /* AppDelegate.swift in Sources */,
+				67BCD7F21E64B53200A39590 /* Stats+CoreDataClass.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,6 +451,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				DEVELOPMENT_TEAM = T6G5Q7J976;
 				INFOPLIST_FILE = CoreDataSwiftReview/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -276,6 +465,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				DEVELOPMENT_TEAM = T6G5Q7J976;
 				INFOPLIST_FILE = CoreDataSwiftReview/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -304,6 +494,7 @@
 				6749B1DA1E6317FF001E19A2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
@@ -315,6 +506,36 @@
 			);
 			currentVersion = 6749B1CE1E6317FF001E19A2 /* CoreDataSwiftReview.xcdatamodel */;
 			path = CoreDataSwiftReview.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+		6749B1DF1E634FED001E19A2 /* BowTieModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				6749B1E01E634FED001E19A2 /* BowTieModel.xcdatamodel */,
+			);
+			currentVersion = 6749B1E01E634FED001E19A2 /* BowTieModel.xcdatamodel */;
+			path = BowTieModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+		67BCD7BD1E6421FD00A39590 /* DogWalkModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				67BCD7BE1E6421FD00A39590 /* DogWalkModel.xcdatamodel */,
+			);
+			currentVersion = 67BCD7BE1E6421FD00A39590 /* DogWalkModel.xcdatamodel */;
+			path = DogWalkModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+		67BCD7D81E649FF600A39590 /* BubbleTeaModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				67BCD7D91E649FF600A39590 /* BubbleTeaModel.xcdatamodel */,
+			);
+			currentVersion = 67BCD7D91E649FF600A39590 /* BubbleTeaModel.xcdatamodel */;
+			path = BubbleTeaModel.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
